@@ -13,3 +13,8 @@ the defalt termination time is 1 hour.
 example run command:
 java -jar target/VeevaAssignment-1.0-SNAPSHOT.jar 5 src/main/resources/test/test1.csv 
 
+assumptions:
+- the csv file has one header value
+- the csv file should contain numbers. if there are some strings in the file - the project will sort only the numbers.
+
+
